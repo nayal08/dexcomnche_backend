@@ -142,3 +142,5 @@ async def logout_admin(
     except Exception as e:
         print(e)
         return jsonify_res(success=False, message="Error Logging out!")
+
+

@@ -11,7 +11,7 @@ class StrippedNotEmptyStrUser(ConstrainedStr):
 
 class Users(BaseModel):
     id: int
-    name: StrippedNotEmptyStrUser
+    name: StrippedNotEmptyStrUser    
     email: EmailStr
     is_active: bool = False
     updated_at: datetime
